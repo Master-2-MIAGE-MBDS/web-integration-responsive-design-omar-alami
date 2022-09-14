@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+header{
+    background-color: #2096f3;
+    color: white;
+    display: grid;
+    grid-template-rows: 58px 59px;
+}
+
+#ads{
+    display: flex;
+    flex-direction: column;
+}
+
+#allads{
+
+}
+
+#myads{
+
+}
+
+body{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 58px auto 59px;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.adslist{
+    display: grid;
+    grid-template-columns: 33% 90% ;
+}
+
+#infoads{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: #2096f3;
+}
+footer h4{
+    color: white;
+}
